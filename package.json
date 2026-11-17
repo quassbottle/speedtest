@@ -1,0 +1,25 @@
+{
+  "name": "speedtest",
+  "version": "1.0.0",
+  "description": "Sequential HTTP download speed test CLI",
+  "main": "index.js",
+  "bin": {
+    "http-speedtest": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "speedtest",
+    "download",
+    "throughput",
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  },
+  "type": "module"
+}
